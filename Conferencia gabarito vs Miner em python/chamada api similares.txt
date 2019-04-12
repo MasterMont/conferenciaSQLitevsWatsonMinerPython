@@ -1,0 +1,5 @@
+http://10.75.200.221:8393/api/v10/search?output=application/json&collection=col_41992&pageSize=30&page=1&summaryLengthRatio=500&returnedField='nome_delegacia|id_delegacia|ano_bo|num_bo|latitude|longitude|autoria_bo&query=(latitude > 23.498628746249917 AND latitude < 23.525608394427483 AND longitude > 46.65198930155722 AND longitude < 46.68141172534178) AND (autoria_bo: S) AND 
+(subfacet::/"parsing_rules"/"nAutorAcaoAgressao") AND 
+(subfacet::/"parsing_rules"/"nAutorAcaoSubtrair") AND 
+(subfacet::/"parsing_rules"/"nAutorAcaoCoacao")	AND 
+(/"keyword$.parsing_rules.nAutor"/"indivíduo" OR /"keyword$.parsing_rules.nAutor"/"roubador" OR /"keyword$.parsing_rules.nAutor"/"indiciado" OR /"keyword$.parsing_rules.nAutor"/"elemento" OR /"keyword$.parsing_rules.nAutor"/"autor" OR /"keyword$.parsing_rules.nAutor"/"individuo")
